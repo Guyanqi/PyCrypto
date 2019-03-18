@@ -2,10 +2,11 @@
 # @Author: Yanqi Gu
 # @Date:   2019-03-18 16:30:15
 # @Last Modified by:   Yanqi Gu
-# @Last Modified time: 2019-03-18 16:38:57
+# @Last Modified time: 2019-03-18 16:41:17
 
 def caeser(msg, key, flag):
-	# key limitation: 1<= key <= m, m = 26
+	# key limitation: 1<= key <= m, m = 26.
+	# The shift operation should only shift between 1-26.
 	# flag: encrypt(0) or decrypt(1)
 	if flag == 1:
 		key = -key
