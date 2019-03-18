@@ -1,2 +1,3 @@
 # RealAppliedCryptography
-Implementation of  important cryptography algorithms
+Library of cryptography algorithms written in pure Python.  
+Requirement: Python3   
