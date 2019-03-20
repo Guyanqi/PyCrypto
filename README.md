@@ -7,7 +7,7 @@ Library of cryptography algorithms written in Python3.
 ## Cryptography Algorithms Support table
 
 | Algorithm | Library | REST API |
-|----------|------|-----------|
+|:---------:| :------:| :-------:|
 | Caeser | Yes  | No        |
 | DES | Yes  | No        |
 | Blowfish| Yes  | No        |
