@@ -11,7 +11,7 @@ Library of cryptography algorithms written in Python3.
 | Caeser | Yes  | No        |
 | DES | Yes  | No        |
 | Blowfish| Yes  | No        |
-| AES | Yes  | Yes        |
+| AES | Yes  | No        |
 | Twofish | Yes  | No      |
 | MD5 | Yes  | No       |
 | SHA1 | Yes  | No       |
