@@ -2,7 +2,7 @@
 
 Library of cryptography algorithms written in Python3. 
  
-##List of Cryptography Algorithms  
+## List of Cryptography Algorithms  
 Caeser  
 DES  
 Blowfish  
@@ -15,16 +15,20 @@ RSA
 Diffie-Hellman  
 Elliptic Curve  
 
-##Features
+## Features
 
 1. Implementation of cipher hashing algorithms  
 2. Implementation of basic cryptography algorithms   
 3. Test and Usage Examples   
 
 ## Install & Download  
-
+```bash
 git clone https://github.com/Guyanqi/PyCrypto  
+```
+## Usage
+```bash
+import pyCrypto 
+```  
 
-## Examples   
-
+## Copyright
 Feel free to use it. You are welcome to star or fork this repository.  
