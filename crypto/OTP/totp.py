@@ -2,7 +2,7 @@
 # @Author: Yanqi Gu
 # @Date:   2019-03-22 12:02:33
 # @Last Modified by:   Yanqi Gu
-# @Last Modified time: 2019-03-22 12:05:06
+# @Last Modified time: 2019-03-22 12:23:01
 
 import struct
 import hashlib
@@ -16,7 +16,7 @@ try:
     from rfc2104 import hmac
 except ImportError as e:
     raise e
-
+# some library need to pre-install
 import unicodedata
 try:
     from urllib.parse import quote, urlencode
