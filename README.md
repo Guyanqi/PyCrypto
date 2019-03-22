@@ -3,7 +3,7 @@
 Library of cryptography algorithms written in Python3. 
 
 **Please note that this is under development and is not ready for production!**    
-**User Doc appear soon**
+**Official document appear soon ...**
 
 ## Cryptography Algorithms Support table
 
