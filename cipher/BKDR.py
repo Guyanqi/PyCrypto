@@ -2,7 +2,7 @@
 # @Author: Yanqi Gu
 # @Date:   2019-03-18 16:21:49
 # @Last Modified by:   Yanqi Gu
-# @Last Modified time: 2019-03-18 16:28:30
+# @Last Modified time: 2019-03-22 10:55:15
 
 def BKDR(msg, seed):
 	# This is an implementation of BKDR Hash.
@@ -15,7 +15,10 @@ def BKDR(msg, seed):
 		hash = (hash * seed) + ord(msg[i])
 	return hash 
 
-if __name__ == '__main__':
-	msg = "I love you"
+def main():
+    msg = "I love you"
 	seed = 31
 	print(BKDR(msg, seed))
+
+if __name__ == '__main__':
+	main()

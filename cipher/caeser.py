@@ -2,7 +2,7 @@
 # @Author: Yanqi Gu
 # @Date:   2019-03-18 16:30:15
 # @Last Modified by:   Yanqi Gu
-# @Last Modified time: 2019-03-18 16:41:17
+# @Last Modified time: 2019-03-22 10:55:33
 
 def caeser(msg, key, flag):
 	# key limitation: 1<= key <= m, m = 26.
@@ -30,11 +30,15 @@ def caeser(msg, key, flag):
 				encrypted += symbol
 	return encrypted
 
-if __name__ == '__main__':
+def main():
 	msg = "I love you"
 	key = 14
 	flag = 1
 	print(caeser(msg, key, flag))
+
+if __name__ == '__main__':
+	main()
+
 
 
 	

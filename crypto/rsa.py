@@ -2,12 +2,11 @@
 # @Author: Yanqi Gu
 # @Date:   2019-03-18 16:45:49
 # @Last Modified by:   Yanqi Gu
-# @Last Modified time: 2019-03-18 17:23:33
+# @Last Modified time: 2019-03-22 10:55:45
 
 import sys
 sys.path.append('../tool')
 import math_tool as tool
-
 
 # Key Generation
 # Use 2 prime factors to form the composite, and use phi_easy() to find the totient
@@ -68,26 +67,4 @@ def decrypt_word(word, privkey, modulus):
         decwd += chr(dec)
     return decwd
 
-def main():
-	prime1 = 13
-	prime2 = 7
-	modulus = prime1 * prime2
-	print("Take prime numbers %d, %d make composite number to use as modulus: %d" % (prime1, prime2, modulus))
-	print("RSA security depends on the difficulty of determining the prime factors of a composite number.")
-
-	print("\n*~*~*~ Key Generation *~*~*~")
-	keys = gen_keypair(prime1, prime2)
-	print("All possible keys:", keys)
-	# First keypair: pub 5, priv 29
-	pubkey = keys[0]['pub']
-	privkey = keys[0]['priv']
-	print("\nYour pubkey is %d, your privkey is %d\n" % (pubkey, privkey))
-
-	encwd = encrypt_word('CLOUD', pubkey, modulus)
-	print("Encrypted word: ", encwd)
-	decwd = decrypt_word(encwd, privkey, modulus)
-	print("Decrypted word: ", decwd)
-
-if __name__ == '__main__':
-	main()
 

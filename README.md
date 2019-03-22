@@ -2,7 +2,7 @@
 
 Library of cryptography algorithms written in Python3. 
 
-**Please note that this bot is under development and is not ready for production!**
+**Please note that this is under development and is not ready for production!**
 
 ## Cryptography Algorithms Support table
 
@@ -32,7 +32,8 @@ git clone https://github.com/Guyanqi/PyCrypto
 ```
 ## Usage
 ```bash
-import pyCrypto 
+import PyCrypto
+enc = PyCrypto.cipher.caeser(msg, key, flag)
 ```  
 
 ## Compiling instructions
