@@ -3,6 +3,7 @@
 Library of cryptography algorithms written in Python3. 
 
 **Please note that this is under development and is not ready for production!**
+**Library Doc to appear soon**
 
 ## Cryptography Algorithms Support table
 
@@ -10,15 +11,15 @@ Library of cryptography algorithms written in Python3.
 |:---------:| :------:| :-------:|
 | Caeser | Yes  | No        |
 | DES | Yes  | No        |
-| Blowfish| Yes  | No        |
+| Blowfish| No  | No        |
 | AES | Yes  | No        |
-| Twofish | Yes  | No      |
+| Twofish | No  | No      |
 | MD5 | Yes  | No       |
 | SHA1 | Yes  | No       |
 | HMAC | Yes  | No       |
 | RSA | Yes  | No       |
-| Diffie | Yes  | No       |
-| Elliptic Curve  | Yes  | No       |
+| Diffie-Hellman | Yes  | No       |
+| Elliptic-Curve  | Yes  | No       |
 
 ## Current Features
 
