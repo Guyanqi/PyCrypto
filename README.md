@@ -11,21 +11,28 @@ Library of cryptography algorithms written in Python3.
 |:---------:| :------:| :-------:|
 | Caeser | Yes  | No        |
 | DES | Yes  | No        |
-| Blowfish| No  | No        |
 | AES | Yes  | No        |
-| Twofish | No  | No      |
 | MD5 | Yes  | No       |
-| SHA1 | Yes  | No       |
+| SHA | Yes  | No       |
 | HMAC | Yes  | No       |
 | RSA | Yes  | No       |
 | Diffie-Hellman | Yes  | No       |
 | Elliptic-Curve  | Yes  | No       |
+| Blowfish| No  | No        |
+| Twofish | No  | No      |
 
 ## Current Features
 
 + Support cipher hashing algorithms  
 + Support basic cryptography algorithms   
-+ Support and Usage Examples   
++ Support Test and Usage Examples   
+
+## TO APPEAR SOON
+
++ Integration for Flask and Django
++ REST API
++ Test module migrated to unittest
++ Deployment Support on multi-core systems
 
 ## Install & Download  
 ```bash
@@ -39,7 +46,7 @@ enc = PyCrypto.cipher.caeser(msg, key, flag)
 
 ## Compiling instructions
 
-Download and install Python3 version for your platform.
+Download and install Python3 for your platform.
 
 ## Contribution
 
@@ -47,4 +54,4 @@ Please feel free to submit any pull requests or suggest any desired features to 
 You are welcome to star or fork this repository.  
 
 ## Copyright
-This is an opensource project so feel free to use it. 
+Feel free to use it. 
