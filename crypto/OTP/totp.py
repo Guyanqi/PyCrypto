@@ -2,7 +2,7 @@
 # @Author: Yanqi Gu
 # @Date:   2019-03-22 12:02:33
 # @Last Modified by:   Yanqi Gu
-# @Last Modified time: 2019-03-22 12:23:01
+# @Last Modified time: 2019-03-22 18:58:05
 
 import struct
 import hashlib
@@ -124,11 +124,6 @@ def get_random_base32_key(byte_key=32, digest=hashlib.sha1):
 
 """
     Returns the provisioning URI for the OTP.
-
-    See also:
-        https://github.com/google/google-authenticator/wiki/Key-Uri-Format
-        adapted from pyotp library code
-
     secret: the totp secret used to generate the URI
     name: name of the account
     issuer_name: the name of the OTP issuer; this will be the organization title of the OTP entry in Authenticator
